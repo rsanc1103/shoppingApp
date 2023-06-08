@@ -1,0 +1,119 @@
+<section class="container cartItems" *ngIf="cartItemsCount > 0">
+  <table>
+    <tbody>
+      <tr *ngFor="let product of cartItems">
+        <td style="display: flex">
+          <button (click)="remvoeQty(product)">-</button>
+          {{ product.qty }}
+          <button (click)="addQty(product)">+</button>
+        </td>
+        <td>
+          <b>{{ product.name }}</b>
+        </td>
+        <td>{{ product.price * product.qty! | currency }}</td>
+        <td>
+          <button (click)="removeItem(product)" class="removeBtn">
+            remove
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="text-center">Total: {{ totalPrice | currency }}</h3>
+
+  <h4 style="color: grey">Enter Shipping information</h4>
+
+  <form [formGroup]="orderDetails" (submit)="submitOrder()">
+    <input
+      class="form-control"
+      type="text"
+      name="name"
+      formControlName="name"
+      placeholder="Full Name"
+    />
+    <div
+      class="danger text-danger"
+      *ngIf="
+        orderDetails.get('name')!.touched && orderDetails.get('name')!.invalid
+      "
+    >
+      Full name required.
+    </div>
+    <br />
+    <input
+      class="form-control"
+      type="text"
+      name="address"
+      formControlName="address"
+      placeholder="Address"
+    />
+    <div
+      class="danger text-danger"
+      *ngIf="
+        orderDetails.get('address')!.touched &&
+        orderDetails.get('address')!.invalid
+      "
+    >
+      Address required.
+    </div>
+    <br />
+    <input
+      class="form-control"
+      type="text"
+      name="city"
+      formControlName="city"
+      placeholder="City"
+    />
+    <div
+      class="danger text-danger"
+      *ngIf="
+        orderDetails.get('city')!.touched && orderDetails.get('city')!.invalid
+      "
+    >
+      City required.
+    </div>
+    <br />
+    <select
+      class="form-control"
+      name="state"
+      id="state"
+      formControlName="state"
+      required
+    >
+      <option value=""></option>
+      <option *ngFor="let state of states" [value]="state">{{ state }}</option>
+    </select>
+    <div
+      class="danger text-danger"
+      *ngIf="
+        orderDetails.get('state')!.touched && orderDetails.get('state')!.invalid
+      "
+    >
+      State required.
+    </div>
+    <br />
+    <input
+      class="form-control"
+      type="text"
+      name="zip"
+      formControlName="zip"
+      placeholder="Zip Code"
+      required
+    />
+    <div
+      class="danger text-danger"
+      *ngIf="(orderDetails.get('zip')!.dirty && orderDetails.get('zip')!.touched) && orderDetails.get('zip')!.errors?.['pattern']"
+    >
+      Invalid ZIP Code format. It should have exactly 5 digits.
+    </div>
+    <br />
+    <button type="submit" class="confirmBtn" [disabled]="orderDetails.invalid">
+      Confirm
+    </button>
+  </form>
+</section>
+
+<section class="text-center" *ngIf="cartItemsCount < 1">
+  Shopping cart empty.
+</section>

@@ -1,0 +1,11 @@
+<section class="listing">
+  <img class="listing-photo" [src]="" />
+  <h2 class="listing-heading">{{ product.name }}</h2>
+  <div class="listing-location">{{ product.price | currency }}</div>
+  <div class="listing-location">
+    {{ product.description }}
+  </div>
+  <div class="text-center">
+    <button (click)="addProductToCart(product)">Add to Cart</button>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+.cartItems{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    padding-right: 50px;
+}
+
+table button{
+    border: none;
+    background: transparent;
+}
+
+.confirmBtn{
+    background-color: #006aff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  button:disabled {
+    background-color: #f2f2f2; /* Change the background color */
+    color: #999999; /* Change the text color */
+    cursor: not-allowed; /* Change the cursor style */
+    /* Add any other styles you want for disabled inputs */
+  }
