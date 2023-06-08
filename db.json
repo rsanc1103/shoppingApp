@@ -5,63 +5,63 @@
   "name": "iPhone 12",
   "price": 999.99,
   "description": "The iPhone 12 is a powerful smartphone with a stunning Super Retina XDR display and A14 Bionic chip.",
-  "image": "https://example.com/iphone12.jpg"
+  "image": "../assets/iphone12.jpeg"
   },
   {
   "id": "2",
   "name": "Samsung Galaxy S21",
   "price": 899.99,
   "description": "The Samsung Galaxy S21 features a brilliant Dynamic AMOLED 2X display and a versatile camera system.",
-  "image": "https://example.com/galaxys21.jpg"
+  "image": "../assets/SamsungGalaxy21.jpeg"
   },
   {
   "id": "3",
   "name": "Sony WH-1000XM4 Wireless Headphones",
   "price": 349.99,
   "description": "The Sony WH-1000XM4 headphones offer industry-leading noise cancellation and exceptional sound quality.",
-  "image": "https://example.com/wh1000xm4.jpeg"
+  "image": "../assets/Sony WH-1000XM4 Wireless Headphones.jpeg"
   },
   {
   "id": "4",
   "name": "DJI Mavic Air 2",
   "price": 799.99,
   "description": "The DJI Mavic Air 2 is a compact and powerful drone with a 48MP camera and 4K video capability.",
-  "image": "https://example.com/mavicair2.jpg"
+  "image": "../assets/DJI Mavic Air 2.jpeg"
   },
   {
   "id": "5",
   "name": "Fitbit Versa 3",
   "price": 229.99,
   "description": "The Fitbit Versa 3 is a feature-packed smartwatch that tracks your workouts, sleep, and heart rate.",
-  "image": "https://example.com/fitbitversa3.jpg"
+  "image": "../assets/Fitbit Versa 3.jpeg"
   },
   {
   "id": "6",
   "name": "Bose QuietComfort 35 II Wireless Headphones",
   "price": 299.99,
   "description": "The Bose QuietComfort 35 II headphones offer world-class noise cancellation and balanced audio performance.",
-  "image": "https://example.com/qc35ii.jpg"
+  "image": "../assets/Bose QuietComfort 35 II Wireless Headphones.jpeg"
   },
   {
   "id": "7",
   "name": "Google Pixel 6",
   "price": 799.99,
   "description": "The Google Pixel 6 features a powerful camera system and the latest Android operating system.",
-  "image": "https://example.com/pixel6.jpg"
+  "image": "../assets/Google-Pixel-6-Pro-Coral.jpeg"
   },
   {
   "id": "8",
   "name": "Apple Watch Series 7",
   "price": 399.99,
   "description": "The Apple Watch Series 7 is a premium smartwatch with advanced health and fitness features.",
-  "image": "https://example.com/applewatch7.jpg"
+  "image": "../assets/Apple Watch Series 7.jpeg"
   },
   {
   "id": "9",
   "name": "Amazon Echo (4th Gen)",
   "price": 99.99,
   "description": "The Amazon Echo (4th Gen) is a smart speaker with improved sound quality and built-in Alexa voice assistant.",
-  "image": "https://example.com/amazonecho4.jpg"
+  "image": "../assets/Amazon Echo (4th Gen).jpeg"
   }
   ]
   }
