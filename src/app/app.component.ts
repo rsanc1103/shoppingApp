@@ -8,7 +8,7 @@ import { CartButtonComponent } from './cart-button/cart-button.component';
   template: `
     <main>
       <header class="brand-name">
-        <a [routerLink]="['/']"> Shopping App </a>
+        <a [routerLink]="['/']"> Shopping App - Hello Ismael, JJ</a>
         <app-cart-button></app-cart-button>
       </header>
       <section class="content">
