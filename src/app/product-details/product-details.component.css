@@ -35,3 +35,12 @@
     padding: 5px;
     margin-top: 5px;
   }
+  .imageHolder{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50%;
+    border-width: 20px;
+    border-color: aqua;
+    border-radius: 15px;
+  }
