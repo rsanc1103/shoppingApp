@@ -5,28 +5,28 @@
   "name": "iPhone 12",
   "price": 999.99,
   "description": "The iPhone 12 is a powerful smartphone with a stunning Super Retina XDR display and A14 Bionic chip.",
-  "image": "https://example.com/iphone12.jpg"
+  "image": "../assets/iphone12.jpeg"
   },
   {
   "id": "2",
   "name": "Samsung Galaxy S21",
   "price": 899.99,
   "description": "The Samsung Galaxy S21 features a brilliant Dynamic AMOLED 2X display and a versatile camera system.",
-  "image": "https://example.com/galaxys21.jpg"
+  "image": "../assets/SamsungGalaxy21.jpeg"
   },
   {
   "id": "3",
   "name": "Sony WH-1000XM4 Wireless Headphones",
   "price": 349.99,
   "description": "The Sony WH-1000XM4 headphones offer industry-leading noise cancellation and exceptional sound quality.",
-  "image": "https://example.com/wh1000xm4.jpeg"
+  "image": "../assets/Sony WH-1000XM4 Wireless Headphones.jpeg"
   },
   {
   "id": "4",
   "name": "DJI Mavic Air 2",
   "price": 799.99,
   "description": "The DJI Mavic Air 2 is a compact and powerful drone with a 48MP camera and 4K video capability.",
-  "image": "https://example.com/mavicair2.jpg"
+  "image": "../assets/DJI Mavic Air 2.jpeg"
   },
   {
   "id": "5",
@@ -40,7 +40,7 @@
   "name": "Bose QuietComfort 35 II Wireless Headphones",
   "price": 299.99,
   "description": "The Bose QuietComfort 35 II headphones offer world-class noise cancellation and balanced audio performance.",
-  "image": "https://example.com/qc35ii.jpg"
+  "image": "../assets/Bose QuietComfort 35 II Wireless Headphones.jpeg"
   },
   {
   "id": "7",
